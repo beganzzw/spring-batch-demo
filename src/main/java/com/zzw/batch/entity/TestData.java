@@ -1,9 +1,13 @@
 package com.zzw.batch.entity;
 
+
+import javax.validation.constraints.NotBlank;
+
 public class TestData {
     private int id;
     private String field1;
     private String field2;
+    @NotBlank
     private String field3;
 
     public int getId() {
