@@ -4,3 +4,7 @@ spring:
     url: jdbc:mysql://127.0.0.1:3306/springbatch
     username: root
     password: 123456
+#    关闭任务自动启动
+  batch:
+    job:
+      enabled: false
